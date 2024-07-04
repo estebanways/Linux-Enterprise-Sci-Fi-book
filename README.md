@@ -21,7 +21,7 @@ available.
 ### Get a copy on Amazon
 [Linux Enterprise Sci-Fi - Scripts & Archivos de Configurado" (Spanish Edition)](https://www.amazon.com/Linux-Enterprise-Sci-Fi-Archivos-Configurado/dp/1507869746)
 
-### Video course available as DVD images (free version)
+### Video course available as free DVD image downloads
 
 * [LE SF 0 (1.1 GiB)](https://drive.google.com/drive/folders/1w-lkkZnIJOM7QmI0daPTpS36QQE_MELE?usp=sharing)
 * [LE SF 1 (4.2 GiB)](https://drive.google.com/drive/folders/1pFdzAPaIyrdpzgKj0gprgvyPVIUgjuv_?usp=drive_link)
