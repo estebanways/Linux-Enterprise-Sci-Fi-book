@@ -27,9 +27,9 @@ CREATE TABLE `virtual_aliases` (
 ) ENGINE = InnoDB;
 
 -- Add quota columns to virtual_users table
-ALTER TABLE `virtual_users` ADD `quota_kb`
-INT NOT NULL,
-ADD `quota_messages` INT NOT NULL ;
+ALTER TABLE `virtual_users`
+ADD `quota_kb` INT NOT NULL, -- Storage quota in kilobytes
+ADD `quota_messages` INT NOT NULL; -- Quota for maximum number of messages
 
 -- Create view to display users' email addresses
 CREATE VIEW view_users AS
