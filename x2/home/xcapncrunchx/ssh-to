@@ -1,0 +1,3 @@
+#!/bin/sh
+pass="PLAIN-ROOT_PASS-HERE-PLS"
+sshpass -p "$pass" ssh `basename $0` $*

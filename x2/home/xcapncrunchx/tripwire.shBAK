@@ -1,0 +1,17 @@
+#!/bin/sh
+HOST_NAME=aestudio
+TWHOME = /var/lib/tripwire
+if [ ! -e $TWHOME/${HOST_NAME}.twd ]  ; then
+echo "***Error: Tripwire DB for $[HOST_NAME] not found***."
+echo "***Run 'tripwire --init'***"
+else
+test -f /etc/tripwire/tw.cfg && /usr/sbin/tripwire --check
+fi
+
+exit 0
+##
+# If you prefer your logs in the mail inbox, and not showed on screen, configure this file, substitute
+# the line beginning with 'test' by:
+# test -f /etc/tripwire/tw.cfg && \ /usr/sbin/tripwire --check--email-report \ --no-tty-output --silent
+# 
+
