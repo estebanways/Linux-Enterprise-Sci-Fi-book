@@ -1,2 +1,3 @@
-# Linux-Enterprise-Sci-Fi
-Linux Enterprise Sci-Fi - Scripts &amp; Archivos de Configurado (Spanish Edition)
+# Linux Enterprise Sci-Fi (book)
+
+The source of the book "Linux Enterprise Sci-Fi - Scripts &amp; Archivos de Configurado" (Spanish Edition)
