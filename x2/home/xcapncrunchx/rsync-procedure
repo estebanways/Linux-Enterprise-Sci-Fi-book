@@ -1,0 +1,61 @@
+Create directories tosync under x1 and x2, and make 2 files under x2:
+$ cd
+$ mkdir tosync
+$ cd tosync
+On x2:
+$ echo 'file-x2-1' > file-x2-1.txt
+$ echo 'file-x2-2' > file-x2-2.txt
+
+
+Command Template: How do I backup /var/www/html using rsync?
+Resource:
+http://www.cyberciti.biz/faq/noninteractive-shell-script-ssh-password-provider/
+Run rsync over SSH using password authentication, passing the password on the command line:
+$ rsync --rsh="sshpass -p myPassword ssh -l username" server.example.com:/var/www/html/ /backup/
+
+NOTE: The first execution the command will not work if host were not connected for a first time
+throuhg sh for that user, so:
+As user on x1:
+ssh x2
+And then say yes to connect
+No you can run the rsync with ssh commands
+
+As user on x2:
+ssh x1
+And then say yes to connect
+No you can run the rsync with ssh commands
+
+
+To copy, running command from x1 the content of tosync on x2 to relative path in x1:
+$ pass="1234567890"
+$ rsync -avv --rsh="sshpass -p $pass ssh" x2:/home/xcapncrunchx/tosync/ .
+
+
+To include the directory tosync/ (DO NOT use the "/" symbol):
+$ pass="1234567890"
+$ rsync -avv --rsh="sshpass -p $pass ssh" x2:/home/xcapncrunchx/tosync .
+$ ls
+
+Sync deleted files on origin to destiny (host):
+$ pass="1234567890"
+$ rsync -avv --delete --rsh="sshpass -p $pass ssh" x2:/home/xcapncrunchx/tosync/ .
+$ ls
+
+Sync just single file:
+$ pass="1234567890"
+$ rsync -avv --rsh="sshpass -p $pass ssh" x2:/home/xcapncrunchx/tosync/file.txt .
+
+RULE OF THUMB:
+Take care that if you modify a file on destiny (for example x1) and synchronize from origin (x2)
+you can lost changes made on destiny. so the rule of thumb is to always make changes to sync on the
+origin and call the sync command from destiny or destinies.
+
+(READY)
+Next step is test rsync using root:
+
+Deactivate restriction to ssh as root:
+$ sudo cp -dpR /etc/ssh_config /etc/ssh_configBAK3
+$ sudo vim /etc/ssh_config
+
+Rememmber to ssh the remote host from the destiny host (x1 to x2 and x2 to x1) to make
+initial connection.
