@@ -1,3 +1,4 @@
+-- Inserting records into virtual_domains table
 INSERT INTO virtual_domains (id, name) VALUES (1, 'aestudio.sytes.net');
 INSERT INTO virtual_domains (id, name) VALUES (2, 'aestudio000.zapto.org');
 INSERT INTO virtual_domains (id, name) VALUES (3, 'etribe.sytes.net');
