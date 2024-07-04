@@ -19,7 +19,7 @@ available.
 ## Book
 
 ### Get a copy on Amazon
-[Linux Enterprise Sci-Fi - Scripts & Archivos de Configurado (Spanish Edition](https://www.amazon.com/Linux-Enterprise-Sci-Fi-Archivos-Configurado/dp/1507869746)
+[Linux Enterprise Sci-Fi - Scripts & Archivos de Configurado (Spanish Edition)](https://www.amazon.com/Linux-Enterprise-Sci-Fi-Archivos-Configurado/dp/1507869746)
 
 ### Video course available as free DVD image downloads
 
