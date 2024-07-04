@@ -6,9 +6,10 @@ The source of the book "Linux Enterprise Sci-Fi - Scripts &amp; Archivos de Conf
 
 ### Foobar
 
-VMware®, KVM, or similar virtualization server. Load balancer and proxy.
+- VMware®, KVM, or similar virtualization server.
+- Load balancer and proxy.
 
 ### x2
 
-Server in a farm of servers or HA (High Availability) cluster, based on the stand-alone bastion server "aestudio" with all services
+- Server in a farm of servers or HA (High Availability) cluster, based on the stand-alone bastion server "aestudio" with all services
 available.
