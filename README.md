@@ -18,3 +18,8 @@ available.
 
 ## Book
 
+Get a copy on Amazon:
+[Linux-Enterprise-Sci-Fi-Archivos-Configurado](https://www.amazon.com/Linux-Enterprise-Sci-Fi-Archivos-Configurado/dp/1507869746)
+
+Free video course available as DVD images download link:
+
