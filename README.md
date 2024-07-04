@@ -2,7 +2,7 @@
 
 The source of the book "Linux Enterprise Sci-Fi - Scripts &amp; Archivos de Configurado" (Spanish Edition)
 
-<img alt="Cover" src="cover.png?raw=true" width="674 height="451" />
+<img alt="Cover" src="cover.jpg?raw=true" width="674 height="451" />
 
 ## Hosts
 
