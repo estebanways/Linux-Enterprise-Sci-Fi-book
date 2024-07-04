@@ -18,11 +18,12 @@ available.
 
 ## Book
 
-Get a copy on Amazon:
+### Get a copy on Amazon
 [Linux-Enterprise-Sci-Fi-Archivos-Configurado](https://www.amazon.com/Linux-Enterprise-Sci-Fi-Archivos-Configurado/dp/1507869746)
 
-Video course available as DVD images (free version):
-LE SF 0 (1.1 GiB): https://drive.google.com/drive/folders/1w-lkkZnIJOM7QmI0daPTpS36QQE_MELE?usp=sharing
+### Video course available as DVD images (free version)
+
+[LE SF 0:] (https://drive.google.com/drive/folders/1w-lkkZnIJOM7QmI0daPTpS36QQE_MELE?usp=sharing) (1.1 GiB)
 LE SF 1 (4.2 GiB): https://drive.google.com/drive/folders/1pFdzAPaIyrdpzgKj0gprgvyPVIUgjuv_?usp=drive_link
 LE SF 2 (1.7 GiB): https://drive.google.com/drive/folders/1HLxkC0Zq63ywPtzRo1OD14LDI4xfu_k4?usp=sharing
 LE SF 3 (3.6 GiB): https://drive.google.com/drive/folders/1L_nDHakgL32KUMCfRqeINN6kdMB3GRO-?usp=sharing
