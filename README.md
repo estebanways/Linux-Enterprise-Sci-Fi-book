@@ -6,7 +6,7 @@ This repository contains the code for the scripts from the book "Linux Enterpris
 
 ## Hosts
 
-### Foobar
+### foobar
 
 - VMware®, KVM, or similar virtualization server.
 - Load balancer and proxy.
