@@ -1,6 +1,6 @@
 # Linux Enterprise Sci-Fi (book)
 
-The source of the book "Linux Enterprise Sci-Fi - Scripts &amp; Archivos de Configurado (Spanish Edition)"
+This repository contains the code for the scripts from the book "Linux Enterprise Sci-Fi - Scripts & Archivos de Configurado (Spanish Edition)".
 
 <img alt="Cover" src="cover.jpg?raw=true" width="225" height="337" />
 
@@ -15,6 +15,10 @@ The source of the book "Linux Enterprise Sci-Fi - Scripts &amp; Archivos de Conf
 
 - Server in a farm of servers or HA (High Availability) cluster, based on the stand-alone bastion server "aestudio" with all services
 available.
+
+### Configuration files
+
+- Configuration files are only included in the book.
 
 ## Book
 
